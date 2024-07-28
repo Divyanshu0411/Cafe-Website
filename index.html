@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+        <!-- Header sections of the webpage -->
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <img src="logo.png" alt="Cafe Logo">
+                </div>
+                <nav>
+                    <ul class="mainmenu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Photo Gallery</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <button class="cta-button">Order Now</button>
+                <div class="hamburger-menu">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </header>
+    <!-- Hero sections of the webpage -->
+    <section class="hero">
+      <div class="hero-content">
+          <h1>Welcome to Our Cafe</h1>
+          <p>Experience the best coffee and pastries in town.</p>
+          <button class="cta-button">View Menu</button>
+      </div>
+  </section>
+
+   <!-- Menu sections of the webpage -->
+ <section class="menu">
+    <h2>Our Menu</h2>
+    <div class="container">
+        
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="coffee.jpg" alt="Coffee">
+                <h3>Coffee</h3>
+                <p>Enjoy our freshly brewed coffee made from premium beans sourced from around the world.</p>
+                <span>$3.99</span>
+            </div>
+            <div class="menu-item">
+                <img src="croissant.jpg" alt="Croissant">
+                <h3>Croissant</h3>
+                <p>Indulge in our buttery, flaky croissants served fresh from the oven.</p>
+                <span>$2.49</span>
+            </div>
+            <div class="menu-item">
+                <img src="Waffle.jpg" alt="Waffle">
+                <h3>Waffle</h3>
+                <p>Indulge in our buttery, flaky croissants served fresh from the oven.</p>
+                <span>$4.49</span>
+            </div>
+
+            <!-- Additional menu items -->
+        </div>
+    </div>
+</section>
+
+    <!-- About Us sections of the webpage -->
+  <section class="about-us">
+    <div class="container">
+        <div class="about-content">
+            <h2>About Us</h2>
+            <p>Welcome to our cozy cafe! We've been serving delicious coffee, pastries, and meals to our community for over a decade. Our mission is to provide a warm and inviting atmosphere where you can relax and enjoy quality food and drinks.</p>
+            <p>At our cafe, we source the freshest ingredients from local farmers and suppliers to ensure the highest quality in every bite. Whether you're stopping by for your morning coffee or a leisurely brunch with friends, we're here to make your experience memorable.</p>
+            <ul class="list">
+              <li>Coffee</li>
+              <li>Tea</li>
+              <li>Milk</li>
+            </ul> 
+            <button class="cta-button">Order Now</button>
+        </div>
+        <img src="cafe-interior.jpg" alt="Cafe Interior" class="about-image">
+    </div>
+</section>
+
+    <!-- Gallery sections of the webpage -->
+    <section class="gallery">
+        <h2>Photo Gallery</h2>
+        <div class="container">
+            <div class="gallery-images">
+                <img src="Gallery Image 1.jpg" alt="Gallery Image 1">
+                <img src="Gallery Image 2.jpg" alt="Gallery Image 2">
+                <img src="Gallery Image 3.jpg" alt="Gallery Image 3">
+                <img src="Gallery Image 4.jpg" alt="Gallery Image 4">
+                <img src="Gallery Image 5.jpg" alt="Gallery Image 5">
+                <img src="Gallery Image 6.jpg" alt="Gallery Image 6">
+                <img src="Gallery Image 1.jpg" alt="Gallery Image 1">
+                <img src="Gallery Image 2.jpg" alt="Gallery Image 2">
+                <img src="Gallery Image 3.jpg" alt="Gallery Image 3">
+                <img src="Gallery Image 4.jpg" alt="Gallery Image 4">
+                <!-- Add more gallery images here -->
+            </div>
+        </div>
+    </section>
+    <!-- contact sections of the webpage -->
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <div class="container">
+            <div class="contact-form">
+                <form id="contactForm" method="post">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+                <div id="statusMessage"></div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer sections of the webpage -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="#">Home</a>
+                    <a href="#">Menu</a>
+                    <a href="#">Photo Gallery</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="social-links">
+                    <a href="#"><img src="facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="twitter.png" alt="Twitter"></a>
+                    <a href="#"><img src="instagram.png" alt="Instagram"></a>
+                </div>
+            </div>
+            <p class="copyright">© 2024 Cafe Website. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
